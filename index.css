@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color:#000000;
+    text-align: center;
+}
+
+.container{
+    max-width: 400px;
+    color: white;
+    margin:50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+   width:90px; 
+   margin: 0 auto;
+}
+
+.heading{
+font-family: Josefin Sans;
+font-size: 25px;
+font-weight: 700;
+line-height: 25px;
+height: 25px;
+user-select: none;
+}
+
+#text{
+    resize:none;
+    background-color: #778da9;
+    width: 317px;
+    height: 118px;
+    border-radius: 8px;
+    margin: 10px auto;
+    color:#415a77 ;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height:20px;
+    padding-left:10px;
+}
+
+#text:hover{
+    background-color:#fefae0;
+    color: #d4a373;
+}
+
+button{
+    background-color: #ffc8dd;
+    width:80%;
+    align-self: center;
+    width: 317px;
+    height: 58px;
+    border-radius: 8px;
+    color: #04131C;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-weight:bolder;
+    width: 314.94px;
+}
+
+button:hover{
+    background-color: #ffafcc;
+    cursor:pointer;
+}
+
+.endorse{
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    user-select: none;
+}
+
+.no-comment{
+    text-align: left;
+    padding:10px;
+    margin-top: 0;
+    
+}
+textarea{
+ background-color: white;
+    font-size: 20px;
+    color:1B1924;
+    margin-top:10px;
+    width: 317px;
+    height: 100px;
+    border-radius: 8px; 
+    padding:  10px; 
+}
